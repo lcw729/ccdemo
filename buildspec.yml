@@ -22,3 +22,4 @@ artifacts:
 artifacts:
   files:
     - 'target/ccdemo.war'
+    - 'appspec.yml'
