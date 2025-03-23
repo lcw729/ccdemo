@@ -15,11 +15,8 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-artifacts:
-  files:
-    - 'target/ccdemo.war'
 
 artifacts:
   files:
     - 'target/ccdemo.war'
-    - 'appspec.yml'
+    - appspec.yml
